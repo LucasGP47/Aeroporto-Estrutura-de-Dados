@@ -51,14 +51,14 @@ public class Tempo {
                 Integer valor = aux2.remover();
             }
             
-            System.out.println("Passo: " + i);
+            System.out.println("Ciclo: " + i);
             System.out.println("Avioes em espera no ar: ");
             if (i > 0) {
             aux.ordenarFila();
             }
             aux.imprimirFila();
 
-            System.out.println("Aviões pousando: ");
+            System.out.println("Aviões aterrissando: ");
             aux1.imprimirFila();
 
             System.out.println("Aviões pousados e abastecendo: ");
