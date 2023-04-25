@@ -72,9 +72,9 @@ public class Aterrissagem {
 	
 	public int geraID() {	
 		
-		 Random gerador = new Random();
-	     int id = gerador.nextInt(50) * 2 + 2;
-	     return id;
+		 Random random = new Random();
+	     int number = random.nextInt(49) * 2 + 1;
+	     return number;
 		
 	}
 	

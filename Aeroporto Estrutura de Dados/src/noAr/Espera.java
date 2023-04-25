@@ -89,14 +89,8 @@ public class Espera {
 	public void imprimirFila() {
         Nodo atual = inicio;
         while (atual != null) {
-        	if(atual.getCombustivel() == 0) {
-        		System.out.print("(Aviao " + atual.getDado() + " caiu!!); " );
-        		atual.getProx().getProx();
-        		System.out.print("(Aviao " + atual.getDado() + " // Combustivel atual: " + atual.getCombustivel()+ "); " );
-        	} else {
             System.out.print("(Aviao " + atual.getDado() + " // Combustivel atual: " + atual.getCombustivel()+ "); " );
             atual = atual.getProx();
-        }
         }
         System.out.println();
     }
